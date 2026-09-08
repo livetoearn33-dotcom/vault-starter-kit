@@ -1,4 +1,4 @@
-# 知識庫搭建包 v0.2
+# 知識庫搭建包 v0.3
 
 一包給朋友的保母級 SOP。你不用懂程式，把 `START.md` 貼進 Claude Code，它會像教練一樣一步一步帶你把自己的 Obsidian 知識庫搭起來。
 
@@ -13,7 +13,7 @@
 打開 Claude Code，貼這一行：
 
 ```
-請讀 https://github.com/livetoearn33-dotcom/vault-starter-kit/START.md 並照做，我要搭自己的 Obsidian 知識庫。
+請讀 https://raw.githubusercontent.com/livetoearn33-dotcom/vault-starter-kit/main/START.md 並照做，我要搭自己的 Obsidian 知識庫。
 ```
 
 **2. `git clone`（推薦，之後有更新可以 `git pull`）**
@@ -36,6 +36,7 @@ git clone https://github.com/livetoearn33-dotcom/vault-starter-kit.git
 | `架構導覽.md` | 這套結構長什麼樣、為什麼這樣設計、哪些地方可以改成你要的 | 讀（動手前） |
 | `START.md` | 貼進 Claude Code 的引導 prompt，主角 | 不用讀，貼給 AI 就好 |
 | `沒有Bot怎麼辦.md` | 手機一秒存入的替代方案，以及補得起來多少 | 想在手機上存東西再讀 |
+| `雲端同步與手機.md` | 把 vault 接上雲端備份、讓手機也能寫；含衝突與排錯 | 想要備份或手機同步再讀 |
 | `CHANGELOG.md` | 每一版改了什麼 | 不用讀 |
 | `templates/CLAUDE.md.template` | 知識庫規則書的範本，`{{ }}` 是要填的空 | AI 會讀 |
 | `templates/懸空件隊列.md` | 「等我決定」清單的範本 | AI 會讀 |
@@ -112,7 +113,7 @@ git clone https://github.com/livetoearn33-dotcom/vault-starter-kit.git
 
 ## 版本
 
-v0.2（2026-09-08）。改了什麼看 `CHANGELOG.md`。這一版還沒有真人跑過，用到卡住的地方請直接記下來回報。
+v0.3（2026-09-08）。改了什麼看 `CHANGELOG.md`。這一版還沒有真人跑過，用到卡住的地方請直接記下來回報。
 
 ---
 
